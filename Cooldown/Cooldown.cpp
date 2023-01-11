@@ -3,9 +3,27 @@
 
 #include <iostream>
 
+using namespace std;
+
+string skillname;
+int cooltime;
+
+void introduce() {
+	cout << "TRPG 쿨타임 계산기 입니다." << endl;
+
+	cout << endl;
+}
+
+void sayyourskillname() {
+	cout << "스킬 이름을 말해주세요" << endl;
+
+	cin >> name;
+
+}
+
 int main()
 {
-    cout << "TRPG 쿨타임 계산기 입니다." << endl;
+	introduce();
 }
 
 
