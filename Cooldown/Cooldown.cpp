@@ -9,6 +9,7 @@ string skillname[99];
 string sname;
 int cooltime[99];
 int stime;
+int increase = 0;
 string choose;
 
 
@@ -46,7 +47,8 @@ void choossing() {
 		cout << endl;
 
 		cin >> sname;
-		skillname[0] = sname;
+		skillname[increase] = sname;
+		increase++;
 
 
 		cout << endl;
@@ -63,6 +65,14 @@ void choossing() {
 	if (choose == "3") {
 		cout << endl;
 		cout << "스킬 목록" << endl;
+		for (int i = 0; i < 99; i++) {
+			if (skillname[i] != null) {
+				cout << skillname[i] << endl;
+			}
+			if (skillname[i] == null) {
+				break;
+			}
+		}
 	}
 
 }
@@ -73,5 +83,4 @@ int main()
 		choossing();
 	}
 }
-
 
