@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <Windows.h>
 
 using namespace std;
 
@@ -42,8 +43,6 @@ void choossing() {
 
 	cin >> choose;
 
-	cout << endl;
-
 	if (choose == "1") {
 		cout << "========================================" << endl;
 		cout << "모든 스킬의 쿨다운을 1 낮췄습니다." << endl;
@@ -66,6 +65,8 @@ void choossing() {
 		cout << "========================================" << endl;
 
 		//skill.erase(skill.begin()+2);
+		Sleep(1500);
+		system("cls");
 	}
 
 	else if (choose == "2") {
@@ -84,7 +85,7 @@ void choossing() {
 		cin >> stime;
 		skill[skill.size() - 1].cooldown = stime;
 
-		cout << endl;
+		system("cls");
 	}
 
 	else if (choose == "3") {
@@ -95,11 +96,13 @@ void choossing() {
 			cout << skill[i].name << " -- " << skill[i].cooldown << endl;
 		}
 		cout << "========================================" << endl;
+
+		Sleep(2000);
+		system("cls");
 	}
 
 }
 
-// ay finally done
 int main()
 {
 	introduce();
