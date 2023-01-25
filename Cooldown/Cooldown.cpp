@@ -83,7 +83,7 @@ void choossing() {
 		cout << "========================================" << endl;
 
 		cin >> stime;
-		skill[skill.size() - 1].cooldown = stime;
+		skill[skill.size() - 1].cooldown = (stime + 1);
 
 		system("cls");
 	}
