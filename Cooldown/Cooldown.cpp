@@ -13,6 +13,7 @@ int cooltime[99];
 int stime;
 int increase = 0;
 string choose;
+string ok;
 
 struct skill_t {
 	int cooldown;
@@ -65,7 +66,9 @@ void choossing() {
 		cout << "========================================" << endl;
 
 		//skill.erase(skill.begin()+2);
-		Sleep(1500);
+	
+		cin >> ok;
+
 		system("cls");
 	}
 
@@ -97,7 +100,7 @@ void choossing() {
 		}
 		cout << "========================================" << endl;
 
-		Sleep(2000);
+		cin >> ok;
 		system("cls");
 	}
 
