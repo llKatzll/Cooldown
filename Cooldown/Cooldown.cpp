@@ -102,8 +102,7 @@ void choossing() {
 
 		cin >> ok;
 		system("cls");
-	}
-	//
+	}//bozo
 }
 // this is final
 int main()
