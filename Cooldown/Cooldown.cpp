@@ -99,6 +99,7 @@ void choossing() {
 			cout << skill[i].name << " -- " << skill[i].cooldown << endl;
 		}
 		cout << "========================================" << endl;
+		//gfgdgfd
 
 		cin >> ok;
 		system("cls");
