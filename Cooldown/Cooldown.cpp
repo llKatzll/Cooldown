@@ -108,6 +108,7 @@ void choossing() {
 // this is final
 int main()
 {
+	cout << starting.. < endl;
 	introduce();
 	while (true) {
 		choossing();
