@@ -99,13 +99,12 @@ void choossing() {
 			cout << skill[i].name << " -- " << skill[i].cooldown << endl;
 		}
 		cout << "========================================" << endl;
-		//gfgdgfdsdfsdfs
 
 		cin >> ok;
 		system("cls");
-	}//bozo
+	}
 }
-// this is final
+
 int main()
 {
 	cout << starting.. < endl;
