@@ -31,7 +31,7 @@ void introduce() {
 
 void choossing() {
 	cout << "========================================" << endl;
-
+//
 	cout << "무엇을 도와드릴까요?" << endl;
 
 	cout << "========================================" << endl;
@@ -111,6 +111,7 @@ int main()
 	introduce();
 	while (true) {
 		choossing();
+		//mamuri
 	}
 }
 
