@@ -27,7 +27,7 @@ void introduce() {
 	cout << "$$$  TRPG 쿨타임 계산기 입니다.  $$$" << endl;
 
 	cout << endl;
-}//sdff
+}//arihe
 
 void choossing() {
 	cout << "========================================" << endl;
